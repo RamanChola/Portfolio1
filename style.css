@@ -692,6 +692,9 @@ p {
   .card-button {
     padding: 10px 15%;
   }
+  .captcha-responsive{
+    width: 60%;
+  }
 }
 
 @media (min-width: 1980px) {
