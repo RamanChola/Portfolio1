@@ -47,15 +47,15 @@ window.onload = function () {
   var controller = new ScrollMagic.Controller();
 
   // build tween
-  var tween = TweenMax.from("#animate", 0.5, { autoAlpha: 0, scale: 0.7 });
+  // var tween = TweenMax.from("#animate", 0.5, { autoAlpha: 0, scale: 0.7 });
 
   // build scene
   var scene = new ScrollMagic.Scene({
-    triggerElement: "a#top",
+    triggerElement: "body",
     duration: 200,
     triggerHook: "onLeave",
   })
-    .setTween(tween)
+    // .setTween(tween)
     .addTo(controller);
 
   // change behaviour of controller to animate scroll instead of jump
