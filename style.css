@@ -309,7 +309,7 @@ p {
 .card-text {
   background-color: var(--light);
   padding: 0 5px 25px 8px;
-  line-height:2;
+  line-height: 2;
 }
 
 .card-text p {
@@ -323,7 +323,7 @@ p {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   line-height: 1;
-  padding-top:15px;
+  padding-top: 15px;
 }
 
 .card-button {
@@ -331,7 +331,7 @@ p {
   font-family: "montserrat-bold", sans-serif;
   border: 0.1rem solid var(--ternary);
   background: transparent;
-  color:var(--dark);
+  color: var(--dark);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   padding: 10px 30%;
@@ -345,7 +345,6 @@ p {
 .card-button:hover {
   color: var(--primary);
   border-color: var(--primary);
- 
 }
 
 .contact-me-page {
@@ -481,9 +480,6 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  body{
-    overflow-x: hidden;
-  }
   .nav-container {
     position: relative;
   }
@@ -692,8 +688,8 @@ p {
   .card-button {
     padding: 10px 15%;
   }
-  .captcha-responsive{
-    max-width: 50%;
+  .captcha-responsive {
+    overflow-x: hidden;
   }
 }
 
