@@ -686,9 +686,6 @@ p {
     flex-direction: column;
     width: 100%;
   }
-  .contact-info-card {
-    width: 90%;
-  }
   .card-button {
     padding: 10px 15%;
   }
