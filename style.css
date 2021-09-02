@@ -306,6 +306,12 @@ p {
   background-size: cover;
 }
 
+.card-image2 {
+  background: url("https://firebasestorage.googleapis.com/v0/b/netflix-39fea.appspot.com/o/items%2Fproj2.png?alt=media&token=643b2584-b2f2-4a48-a68a-0f52b9ee13f2");
+  height: 180px;
+  background-size: cover;
+}
+
 .card-text {
   background-color: var(--light);
   padding: 0 5px 25px 8px;
