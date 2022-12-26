@@ -300,14 +300,29 @@ p {
   border: none;
 }
 
-.card-image {
-  background: url("proj1img.jpg");
+.card-image1 {
+  background: url("https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/770/413/datas/gallery.jpg");
   height: 180px;
   background-size: cover;
 }
 
 .card-image2 {
-  background: url("https://firebasestorage.googleapis.com/v0/b/netflix-39fea.appspot.com/o/items%2Fproj2.png?alt=media&token=643b2584-b2f2-4a48-a68a-0f52b9ee13f2");
+  background: url("https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/703/417/datas/gallery.jpg");
+  height: 180px;
+  background-size: cover;
+}
+.card-image3 {
+  background: url("https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/673/633/datas/gallery.jpg");
+  height: 180px;
+  background-size: cover;
+}
+.card-image4 {
+  background: url("restate.png");
+  height: 180px;
+  background-size: cover;
+}
+.card-image5 {
+  background: url("https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/001/686/407/datas/gallery.jpg");
   height: 180px;
   background-size: cover;
 }
@@ -319,6 +334,7 @@ p {
 }
 
 .card-text p {
+  min-height: 130px;
   color: var(--ternary);
   font-size: 18px;
 }
